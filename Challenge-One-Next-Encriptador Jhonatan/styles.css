@@ -1,0 +1,66 @@
+
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-principal {
+    background: #222;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;    
+}
+
+.tarjeta{
+    width: 600px;
+    height: 250px;
+    margin: 6px;
+    background-color:  #ECF0F1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.error {
+    color: black;
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0 0.3rem;
+}
+
+button {
+    all: initial;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+
+    color: black;
+    background:  #33FFF6;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0.4em 0.3em;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contenedor-botones{
+    display: flex;
+}
+
+.mensaje-contenedor {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    all: initial;
+    font: inherit;
+    background: transparent;
+    color: black;
+    padding: 1em 0.5em;
+}
